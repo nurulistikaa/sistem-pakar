@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <h5 class="m-0 font-weight-bold text-primary m-2">
-                        <font color="#8B0000">Laporan Diagnosa</font>
+                        <font color="#272c49">Laporan Diagnosa</font>
                     </h5>
                 </div>
                 <div class="card-body">

@@ -1,0 +1,79 @@
+INFO - 2024-07-20 06:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 07:02:59 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 181.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(181): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-20 07:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 07:06:14 --> Undefined variable $max_cf
+in APPPATH\Controllers\MasterDiagnosaController.php on line 181.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $max_cf', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-20 07:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 07:06:29 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 181.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(181): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-20 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 07:18:04 --> Undefined variable $max_cf
+in APPPATH\Controllers\MasterDiagnosaController.php on line 181.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $max_cf', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-20 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 07:20:53 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 182.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(182): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-20 07:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 07:37:18 --> Invalid file: "diagnosa/hasil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('diagnosa/hasil.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('diagnosa/hasil', [], true)
+ 3 APPPATH\Controllers\MasterDiagnosaController.php(218): view('diagnosa/hasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-20 07:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 07:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 07:37:41 --> Invalid file: "diagnosa/hasil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('diagnosa/hasil.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('diagnosa/hasil', [], true)
+ 3 APPPATH\Controllers\MasterDiagnosaController.php(218): view('diagnosa/hasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-20 07:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 07:38:09 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 182.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(182): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

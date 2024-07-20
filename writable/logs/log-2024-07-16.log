@@ -1,0 +1,198 @@
+INFO - 2024-07-16 14:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 14:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 14:52:23 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:16:12 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:18:38 --> syntax error, unexpected identifier "sebagai"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 137.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MasterDiagnosaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MasterDiagnosaController')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\MasterDiagnosaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:21:15 --> Undefined array key 0
+in APPPATH\Controllers\MasterDiagnosaController.php on line 169.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:23:48 --> Undefined variable $cfUserId
+in APPPATH\Controllers\MasterDiagnosaController.php on line 60.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cfUserId', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:24:46 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:26:52 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:33:39 --> Undefined array key 0
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:52:53 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 187.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(187): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 15:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 15:56:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MasterDiagnosaController.php on line 191.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 16:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 16:06:06 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 16:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 16:15:49 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 173.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 16:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 16:20:46 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 174.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 16:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 16:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-16 17:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 17:25:40 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 174.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 17:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 17:32:23 --> Undefined array key "nilai_cf"
+in APPPATH\Controllers\MasterDiagnosaController.php on line 174.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_cf"', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 17:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 17:38:32 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 179.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(179): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 17:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 17:42:43 --> max(): Argument #1 ($value) must contain at least one element
+in APPPATH\Controllers\MasterDiagnosaController.php on line 188.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(188): max([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 17:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 17:50:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MasterDiagnosaController.php on line 199.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 17:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 17:57:00 --> Undefined variable $listGejala
+in APPPATH\Controllers\MasterDiagnosaController.php on line 297.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(297): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listGejala', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 297)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-16 18:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-16 18:27:35 --> Undefined variable $listGejala
+in APPPATH\Controllers\MasterDiagnosaController.php on line 297.
+ 1 APPPATH\Controllers\MasterDiagnosaController.php(297): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listGejala', 'C:\\xampp\\htdocs\\SKRIPSI\\Sistem-Pakar-Tingkat-Depresi\\app\\Controllers\\MasterDiagnosaController.php', 297)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasterDiagnosaController->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterDiagnosaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -10,7 +10,7 @@
         <a href="<?= base_url('/admin/master_aturan/new') ?>" class="btn btn-primary btn-sm m-2" type="button"
             style="float: right;"><i class="fas fa-plus-circle"></i> Tambah Aturan</a>
         <h5 class="m-0 font-weight-bold text-primary m-2">
-            <font color="#8B0000">Data Aturan</font>
+            <font color="#272c49">Data Aturan</font>
         </h5>
     </div>
     <div class="card-body">

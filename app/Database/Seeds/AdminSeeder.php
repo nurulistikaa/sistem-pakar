@@ -11,7 +11,7 @@ class AdminSeeder extends Seeder
         $data = [
             [
                 'username' => 'admin',
-                'nama_lengkap' => 'Mosyahi Dev',
+                'nama_lengkap' => 'Admin',
                 'password' => password_hash('admin', PASSWORD_DEFAULT)
             ]
         ];

@@ -6,7 +6,7 @@
 <div class="card shadow mb-4">
     <div class="card-header" id="biodata-header" data-toggle="collapse" data-target="#biodata-collapse">
         <h5 class="m-0 font-weight-bold text-primary m-2">
-            <font color="#8B0000">Biodata Mahasiswa</font>
+            <font color="#272c49">Biodata Mahasiswa</font>
         </h5>
     </div>
     <div class="collapse" id="biodata-collapse">
@@ -61,7 +61,7 @@
 <div class="card shadow mb-4">
     <div class="card-header" id="biodata-header" data-toggle="collapse" data-target="#tentang-collapse">
         <h5 class="m-0 font-weight-bold text-primary m-2">
-            <font color="#8B0000">Tentang</font>
+            <font color="#272c49">Tentang</font>
         </h5>
     </div>
     <div class="collapse" id="tentang-collapse">
@@ -100,7 +100,7 @@
 <div class="card shadow mb-4">
     <div class="card-header" id="detail-penyakit-header" data-toggle="collapse" data-target="#detail-penyakit-collapse">
         <h5 class="m-0 font-weight-bold text-primary m-2">
-            <font color="#8B0000">Tingkat Depresi Yang Dialami</font>
+            <font color="#272c49">Tingkat Depresi Yang Dialami</font>
         </h5>
     </div>
     <div class="collapse" id="detail-penyakit-collapse">
@@ -134,7 +134,7 @@
 <div class="card shadow mb-4">
     <div class="card-header" id="detail-depresi-header" data-toggle="collapse" data-target="#detail-depresi-collapse">
         <h5 class="m-0 font-weight-bold text-primary m-2">
-            <font color="#8B0000">Perbandingan Nilai Depresi Terbesar</font>
+            <font color="#272c49">Perbandingan Nilai Depresi Terbesar</font>
         </h5>
     </div>
     <div class="collapse" id="detail-depresi-collapse">
@@ -185,7 +185,7 @@
 <div class="card shadow mb-4">
     <div class="card-header" id="detail-diagnosa-header" data-toggle="collapse" data-target="#detail-diagnosa-collapse">
         <h5 class="m-0 font-weight-bold text-primary m-2">
-            <font color="#8B0000">Detail Diagnosa</font>
+            <font color="#272c49">Detail Diagnosa</font>
         </h5>
     </div>
     <div class="collapse" id="detail-diagnosa-collapse">

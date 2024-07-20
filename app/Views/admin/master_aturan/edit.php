@@ -7,7 +7,7 @@
 <div class="card shadow mb-4">
     <div class="card-header">
         <h5 class="m-0 font-weight-bold text-primary">
-            <font color="#8B0000">Form Edit Aturan</font>
+            <font color="#272c49">Form Edit Aturan</font>
         </h5>
     </div>
     <div class="card-body">

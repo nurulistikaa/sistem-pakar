@@ -9,7 +9,7 @@
     <div class="card shadow mb-4">
         <div class="card-header">
             <h5 class="m-0 font-weight-bold text-primary m-2">
-                <font color="#8B0000">Form Tambah Penyakit</font>
+                <font color="#272c49">Form Tambah Penyakit</font>
             </h5>
         </div>
         <div class="card-body">

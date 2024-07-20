@@ -1,6 +1,6 @@
 <div class="container footer-bottom clearfix d-flex align-items-center justify-content-center">
     <div class="copyright mx-3">
-        &copy; Copyright Aplikasi By <strong><span>Umc.2023</span></strong>. All Rights Reserved
+        &copy; Copyright By <strong><span>SIPADEM.2024</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
         <!-- All the links in the footer should remain intact. -->

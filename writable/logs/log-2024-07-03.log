@@ -1,0 +1,53 @@
+INFO - 2024-07-03 18:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-03 18:28:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpakardepresi', 3306, '', 0)
+#1 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\app\Models\UserModel.php(16): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\app\Controllers\Auth.php(50): App\Models\UserModel->getUserByUsername('admin')
+#8 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\app\Models\UserModel.php(16): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\app\Controllers\Auth.php(50): App\Models\UserModel->getUserByUsername('admin')
+#7 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#8 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SKRIPSI\Sistem-Pakar-Tingkat-Depresi\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-03 18:28:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_admin`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(16): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Auth.php(50): App\Models\UserModel->getUserByUsername('admin')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-03 18:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-03 18:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-03 18:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-03 18:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-03 19:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-03 19:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

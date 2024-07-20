@@ -9,7 +9,7 @@ class AturanSeeder extends Seeder
     public function run()
     {
         $data = [
-            [1, 1, 1, 0.8, 0, 0.8],
+            [1, 1, 0.8, 0, 0.8],
             [1, 6, 0.9, 0, 0.9],
             [1, 8, 0.8, 0, 0.8],
             [2, 15, 0.4, 0, 0.4],

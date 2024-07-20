@@ -10,8 +10,8 @@
             <div class="col-lg-8 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
                 data-aos="fade-up" data-aos-delay="200">
                 <h1>Terdeteksi Error!</h1>
-                <h2 class="mb-4">Silahkan Pilih <strong class="text-warning">Gejala</strong>
-                    Yang Kamu Alami Minimal 1 Dengan Cara : Ceklis Kode Gejala, Lalu Pilih Nilai Keyakinan Anda Terhadap Gejala Yang Anda Pilih!</h2>
+                <h2 class="mb-4">Silahkan Pilih <strong style="color: #30cfda;">Gejala</strong>
+                    Yang Kamu Alami Minimal 1 Dengan Cara : Ceklis Kode Gejala, Lalu Pilih Nilai Kepastian Anda Terhadap Gejala Yang Diilih</h2>
                 <div class="d-flex justify-content-center justify-content-lg-start mt-3">
                     <a href="#" onclick="history.back('/')" class="btn-get-started scrollto"><i class="fas fa-chevron-left"></i>&nbsp Kembali</a>
                 </div>

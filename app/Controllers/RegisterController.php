@@ -117,18 +117,18 @@ class RegisterController extends BaseController
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'ISI EMAIL ANDA DISINI';
-            $mail->Password = 'ISI PASSWORD AUTHENTICATED 2 LANGKAH DISINI';
+            $mail->Username = 'nurlista.ku@gmail.com';
+            $mail->Password = 'cwfpjylwqhipezye';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
         // Recipients
-            $mail->setFrom('ISI EMAIL ANDA DISINI', 'Sispasi UMC');
+            $mail->setFrom('nurlista.ku@gmail.com', 'SIPADEM');
             $mail->addAddress($email);
 
         // Content
             $mail->isHTML(true);
-            $mail->Subject = 'Kode OTP Registrasi Sispasi UMC';
+            $mail->Subject = 'Kode OTP Registrasi SIPADEM';
 
             $emailMessage = '<html>';
             $emailMessage .= '<head>';
@@ -144,7 +144,7 @@ class RegisterController extends BaseController
             $emailMessage .= '</head>';
             $emailMessage .= '<body>';
             $emailMessage .= '<div class="container">';
-            $emailMessage .= '<img src="https://sbmptmu.id/wp-content/uploads/2022/04/logo-umc-1009x1024-Reza-M-768x779.png" alt="Logo" class="logo" style="width: 50px; height: 50px;">';
+            $emailMessage .= '<img src="https://i.imgur.com/KlfFmsW.png" alt="Logo" class="logo" style="width: 50px; height: 50px;">';
             $emailMessage .= '<h1>Kode OTP</h1>';
             $emailMessage .= '<table>';
             $emailMessage .= '<tr><td style="background-color: #eee;"><strong>' . $otp . '</strong></td></tr>';

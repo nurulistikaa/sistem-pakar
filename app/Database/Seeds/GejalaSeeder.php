@@ -12,83 +12,83 @@ class GejalaSeeder extends Seeder
         $data = [
             [
                 'kode_gejala' => 'G01',
-                'nama_gejala' => 'Anda mengalami suasana hati sedih hampir setiap hari dalam kurun waktu 2 minggu',
+                'nama_gejala' => 'Mengalami suasana hati sedih hampir setiap hari selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G02',
-                'nama_gejala' => 'Anda kehilangan minat atau kesenangan yang signifikan dalam semua hal atau hampir semua aktivitas sepanjang hari dalam kurun waktu 2 minggu terakhir',
+                'nama_gejala' => 'Kehilangan minat dalam semua aktivitas selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G03',
-                'nama_gejala' => 'Anda mengalami perubahan berat badan yang signifikan tanpa melakukan diet atau perubahan nafsu makan selama 2 minggu terakhir',
+                'nama_gejala' => 'Berat badan berubah signifikan dalam dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G04',
-                'nama_gejala' => 'Anda mengalami kesulitan tidur atau tidur berlebihan selama 2 minggu terakhir',
+                'nama_gejala' => 'Mengalami kesulitan tidur atau tidur berlebihan selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G05',
-                'nama_gejala' => 'Anda merasa gelisah atau pergerakan anda lebih lambat selama 2 minggu terakhir',
+                'nama_gejala' => 'Merasa gelisah akan suatu hal selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G06',
-                'nama_gejala' => 'Anda merasa lelah atau kehilangan energi hampir setiap hari selama 2 minggu terakhir',
+                'nama_gejala' => 'Mudah lelah atau kehilangan energi hampir setiap hari selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G07',
-                'nama_gejala' => 'Anda merasa rendah diri atau merasa bersalah secara berlebihan hampir setiap hari dalam kurun waktu 2 minggu terakhir',
+                'nama_gejala' => 'Merasa kurang percaya diri dan bersalah hampir setiap hari selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G08',
-                'nama_gejala' => 'Anda kesulitan berpikir atau berkonsentrasi, atau sulit membuat keputusan hampir setiap hari dalam 2 minggu terakhir',
+                'nama_gejala' => 'Kesulitan berkonsentrasi hampir setiap hari selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G09',
-                'nama_gejala' => 'Anda sering memikirkan tentang kematian, memiliki pemikiran bunuh diri berulang tanpa rencana khusus, atau pernah mencoba bunuh diri atau memiliki rencana spesifik untuk bunuh diri dalam 2 minggu terakhir',
+                'nama_gejala' => 'Sering memikirkan untuk mengakhiri hidup dalam dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G10',
-                'nama_gejala' => 'Gejala-gejala yang Anda alami disebabkan oleh pengaruh zat tertentu (seperti obat-obatan)',
+                'nama_gejala' => 'Merasa diri sendiri tidak berharga atau tidak memiliki nilai selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G11',
-                'nama_gejala' => 'Gejala-gejala yang Anda alami menyebabkan kesulitan atau gangguan signifikan dalam berinteraksi sosial, pekerjaan atau kegiatan penting lainnya',
+                'nama_gejala' => 'Kesulitan dalam berinteraksi sosial, pekerjaan, atau kegiatan penting lainnya dengan orang lain',
             ],
             [
                 'kode_gejala' => 'G12',
-                'nama_gejala' => 'Anda mengalami perubahan nafsu makan yang memburuk atau berlebihan dalam 2 minggu terakhir',
+                'nama_gejala' => 'Mengalami perubahan napsu makan yang buruk atau berlebihan selama dua minggu terakhir',
             ],
             [
                 'kode_gejala' => 'G13',
-                'nama_gejala' => 'Suasana hati anda tertekan sepanjang hari dalam 2 tahun belakangan ini',
+                'nama_gejala' => 'Merasa tertekan akan suatu hal selama dua tahun terakhir',
             ],
             [
                 'kode_gejala' => 'G14',
-                'nama_gejala' => 'Ada perubahan nafsu makan yang memburuk atau nafsu makan berlebih selama 2 tahun belakangan ini',
+                'nama_gejala' => 'Mengalami perubahan napsu makan yang buruk atau berlebihan selama dua tahun terakhir',
             ],
             [
                 'kode_gejala' => 'G15',
-                'nama_gejala' => 'Anda mengalami kesulitan tidur atau tidur berlebihan selama 2 tahun terakhir',
+                'nama_gejala' => 'Mengalami kesulitan tidur atau tidur berlebihan selama dua tahun terakhir',
             ],
             [
                 'kode_gejala' => 'G16',
-                'nama_gejala' => 'Dalam 2 tahun belakangan ini anda mengalami kelelahan dalam menjalani aktivitas sehari-hari',
+                'nama_gejala' => 'Merasa kelelahan dalam menjalani aktivitas sehari-hari selama dua tahun terakhir',
             ],
             [
                 'kode_gejala' => 'G17',
-                'nama_gejala' => 'Dalam 2 tahun terakhir Anda sering merasakan perasaan rendah diri',
+                'nama_gejala' => 'Merasa kurang percaya diri hampir setiap hari selama dua tahun terakhir',
             ],
             [
                 'kode_gejala' => 'G18',
-                'nama_gejala' => 'Dalam 2 tahun terakhir anda mengalami kurang konsentrasi atau kesulitan mengambil keputusan',
+                'nama_gejala' => 'Kesulitan berkonsentrasi hampir setiap hari selama dua tahun terakhir',
             ],
             [
                 'kode_gejala' => 'G19',
-                'nama_gejala' => 'Dalam 2 tahun terakhir anda mengalami putus ada terhadap hal yang sedang anda kejar',
+                'nama_gejala' => 'Merasa putus asa terhadap suatu hal yang sedang dikejar selama dua tahun terakhir',
             ],
             [
                 'kode_gejala' => 'G20',
-                'nama_gejala' => 'Anda merasa tidak pernah bahagia dalam 2 tahun terakhir',
+                'nama_gejala' => 'Merasa tidak pernah bahagia dalam dua tahun terakhir',
             ],
         ];
 

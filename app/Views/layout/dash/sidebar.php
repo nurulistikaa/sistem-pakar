@@ -1,11 +1,11 @@
-<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background: #8B0000;">
+<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background: #272c49;">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('admin') ?>">
         <div class="sidebar-brand-icon">
-            <span class="logo-lg"> <img src="<?= base_url('public/img/umc.png') ?>" width="30px" height="30px"></span>
+            <span class="logo-lg"> <img src="<?= base_url('public/img/sipadem.png') ?>" width="25px" height="25px"></span>
         </div>
-        <div class="sidebar-brand-text mx-2 text-lg">SISPASI UMC</div>
+        <div class="sidebar-brand-text mx-2 text-lg">SIPADEM</div>
     </a>
 
     <!-- Divider -->
@@ -50,7 +50,6 @@
     <div class="bg-white py-2 collapse-inner rounded">
         <h6 class="collapse-header">Verifikasi:</h6>
         <a class="collapse-item <?= strpos(service('request')->uri->getPath(), 'admin/master_otp') !== false || service('request')->uri->getSegment(2) == 'new' || service('request')->uri->getSegment(2) == 'edit' ? 'active' : '' ?>" href="<?= base_url('admin/master_otp') ?>">Data OTP</a>
-        <a class="collapse-item <?= strpos(service('request')->uri->getPath(), 'admin/master_token') !== false || service('request')->uri->getSegment(2) == 'new' || service('request')->uri->getSegment(2) == 'edit' ? 'active' : '' ?>" href="<?= base_url('admin/master_token') ?>">Data Token Reset</a>
     </div>
 </div>
 </li>

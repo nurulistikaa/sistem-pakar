@@ -17,7 +17,7 @@
                 </div>
             </div>
             <h5 class="m-0 font-weight-bold text-primary m-2">
-                <font color="#8B0000">Data OTP</font>
+                <font color="#272c49">Data OTP</font>
             </h5>
         </div>
         <div class="card-body">

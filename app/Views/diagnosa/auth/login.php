@@ -10,7 +10,7 @@
                         <div class="col-lg-12">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <img src="<?= base_url() ?>public/img/umc.png" width="70px" height="70px">
+                                    <img src="<?= base_url() ?>public/img/sipadem.png" width="70px" height="70px">
                                     <p>
                                     <h1 class="h4 text-gray-900 mb-4">Selamat Datang!</h1>
                                     </p>
@@ -50,11 +50,7 @@
                                     <button type="submit" class="btn btn-primary btn-user btn-block">
                                         Login
                                     </button>
-                                </form>
-                                <a href="<?= base_url('login-google') ?>" class="btn btn-google btn-user btn-block mt-1">
-                                    <i class="fab fa-google fa-fw"></i> Login with Google
-                                </a>
-                                <hr>
+                                </form>                                
                                 <div class="text-center">
                                     <a class="small" href="<?= base_url('forgot-password') ?>">Lupa Password?</a>
                                 </div>
@@ -69,7 +65,8 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>&copy; 2023 Copyright Aplikasi By <a href="https://instagram.com/mochsyarifhidayat13">mochsyarifhidayat.</a> All Rights Reserved</span>
+                    <span><strong>Copyright &copy; <a href="#">SIPADEM.2023</a>.</strong> All rights
+                    reserved.</span>
                     </div>
                 </div>
             </footer>

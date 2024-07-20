@@ -17,7 +17,7 @@
                 </div>
             </div>
             <h5 class="m-0 font-weight-bold text-primary m-2">
-                <font color="#8B0000">Data Mahasiswa</font>
+                <font color="#272c49">Data Mahasiswa</font>
             </h5>
         </div>
         <div class="card-body">

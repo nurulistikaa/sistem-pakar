@@ -11,7 +11,7 @@
             style="float: right;"><i class="fas fa-plus-circle"></i> Tambah Penyakit
         </a>
         <h5 class="m-0 font-weight-bold text-primary m-2">
-            <font color="#8B0000">Data Penyakit</font>
+            <font color="#272c49">Data Penyakit</font>
         </h5>
     </div>
     <div class="card-body">

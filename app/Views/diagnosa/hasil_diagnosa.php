@@ -7,8 +7,8 @@
     <div class="container d-flex align-items-center">
 
         <h5 class="logo me-auto" style="font-size: 20px;">
-            <img src="<?= base_url('public/img/umc.png') ?>" class="mb-1" style="height: 28px; width: 28px;" alt="">
-            <a href="#home">Sispasi Umc </a>
+            <img src="<?= base_url('public/img/sipadem.png') ?>" class="mb-1" style="height: 28px; width: 28px;" alt="">
+            <a href="#home">SIPADEM</a>
         </h5>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo me-auto"><img src="public/landing/assets/img/logo.png" alt="" class="img-fluid"></a> -->

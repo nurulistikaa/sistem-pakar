@@ -1,6 +1,6 @@
 /**
 * Template Name: Arsha
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
+* Updated: Mar 10 2024 with Bootstrap v5.2.3
 * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -9,9 +9,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -44,7 +48,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #8b0000;
+  background: #272c49;
 }
 
 #preloader:before {
@@ -56,7 +60,7 @@ h6 {
   width: 60px;
   height: 60px;
   animation: animate-preloader 1s linear infinite;
-  background-image: url(../../../img/umc.png);
+  background-image: url(../../../img/sipadem.png);
   background-size: cover;
   background-position: center;
 }
@@ -82,7 +86,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #8b0000;
+  background: #272c49;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -96,7 +100,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #272c49;
   color: #fff;
 }
 
@@ -112,12 +116,12 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background: #8b0000;
+  background: #272c49;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #8b0000;
+  background: #272c49;
 }
 
 #header .logo {
@@ -184,7 +188,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #ffc107;
+  color: #30cfda;
   font-weight: bold;
 }
 
@@ -195,14 +199,14 @@ h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #B9000D;
+  background: #41C0C9;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #B9000D;
+  background:#41C0C9;
 }
 
 .navbar .dropdown ul {
@@ -340,7 +344,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #8b0000;
+  color: #272c49;
 }
 
 .navbar-mobile .getstarted,
@@ -389,7 +393,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #8b0000;
+  background: #272c49;
 }
 
 #hero .container {
@@ -406,8 +410,14 @@ h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
+  margin-top: 10px;
   font-size: 24px;
+}
+
+#hero p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: -20px;
 }
 
 #hero .btn-get-started {
@@ -421,11 +431,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #ffc107;
+  background: #41C0C9;
 }
 
 #hero .btn-get-started:hover {
-  background: #fe636e;
+  background: #0a5d8f;
 }
 
 #hero .btn-watch-video {
@@ -447,7 +457,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #41C0C9;
 }
 
 #hero .animated {
@@ -535,7 +545,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #8b0000;
+  color: #272c49;
 }
 
 .section-title h2::before {
@@ -555,7 +565,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #8b0000;
+  background: #272c49;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -923,8 +933,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #8b0000;
-  border: 2px solid #8b0000;
+  background: #ffcb40;
+  border: 2px solid #ffcb40;
 }
 
 @media (max-width: 1024px) {
@@ -1369,7 +1379,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #8b0000;
+  color: #272c49;
 }
 
 .faq .faq-list .icon-show,
@@ -1390,12 +1400,12 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #8b0000;
+  color: #272c49;
   transition: 0.3s;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #fe636e;
+  color: #272c49;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1416,8 +1426,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #8b0000;
-  border-bottom: 3px solid #8b0000;
+  border-top: 3px solid #272c49;
+  border-bottom: 3px solid #272c49;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1426,11 +1436,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #8b0000;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #e7f5fb;
+  background: #272c49;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1477,21 +1487,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #47b2e4;
+  background: #272c49;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #47b2e4;
+  background: #41C0C9;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #8b0000;
-  border-bottom: 3px solid #8b0000;
+  border-top: 3px solid #272c49;
+  border-bottom: 3px solid #272c49;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1580,7 +1590,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #8b0000;
+  background: #272c49;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1589,7 +1599,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #fe636e;
+  background: #41C0C9;
 }
 
 @keyframes animate-loading {
@@ -1649,7 +1659,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #8b0000;
+  background: #272c49;
 }
 
 #footer .footer-newsletter {
@@ -1721,7 +1731,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #8b0000;
+  color: #272c49;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1735,7 +1745,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #8b0000;
+  color: #272c49;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1782,7 +1792,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #8b0000;
+  background: #272c49;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1795,7 +1805,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #41C0C9;
   color: #fff;
   text-decoration: none;
 }

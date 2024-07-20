@@ -19,7 +19,7 @@ class KritikController extends BaseController
 
         $to = "ISI EMAIL PENERIMA"; 
 
-        $subject = "Sispasi UMC - Pesan dari $name";
+        $subject = "Sispasi SIPADEM - Pesan dari $name";
 
         $emailMessage = '<html>';
         $emailMessage .= '<head>';
@@ -35,7 +35,7 @@ class KritikController extends BaseController
         $emailMessage .= '</head>';
         $emailMessage .= '<body>';
         $emailMessage .= '<div class="container">';
-        $emailMessage .= '<img src="https://sbmptmu.id/wp-content/uploads/2022/04/logo-umc-1009x1024-Reza-M-768x779.png" alt="Logo" class="logo" style="width: 50px; height: 50px;">';
+        $emailMessage .= '<img src="https://i.imgur.com/KlfFmsW.png" alt="Logo" class="logo" style="width: 50px; height: 50px;">';
         $emailMessage .= '<h1>Kritik dan Saran</h1>';
         $emailMessage .= '<table>';
         $emailMessage .= '<tr><td>Nama</td><td>: ' . htmlspecialchars($name) . '</td></tr>';
@@ -70,7 +70,7 @@ class KritikController extends BaseController
             echo "Pesan berhasil terkirim.";
 
             // Mengirim email balasan
-            $subjectBalasan = "Tim Sispasi UMC";
+            $subjectBalasan = "Tim SIPADEM";
             $emailMessageBalasan = '<html>';
             $emailMessageBalasan .= '<head>';
             $emailMessageBalasan .= '<style>';
@@ -84,8 +84,8 @@ class KritikController extends BaseController
             $emailMessageBalasan .= '<div class="container">';
             $emailMessageBalasan .= '<img src="https://sbmptmu.id/wp-content/uploads/2022/04/logo-umc-1009x1024-Reza-M-768x779.png" alt="Logo" class="logo" style="width: 50px; height: 50px;">';
             $emailMessageBalasan .= '<h1>Terima Kasih atas Kritik dan Saran Anda</h1>';
-            $emailMessageBalasan .= '<p> Sebagai Tim Sispasi UMC, kami ingin menyampaikan ucapan terima kasih yang tulus atas kritik dan saran yang Anda berikan. Setiap masukan dari Anda adalah motivasi bagi kami untuk terus berkembang dan memberikan pelayanan terbaik kepada pengguna <strong>Sispasi UMC</strong>.<br><br> Kami sangat menghargai kesempatan untuk mendengar pandangan Anda tentang pelayanan pada aplikasi ini. Kritik yang konstruktif dan saran yang berharga telah memberikan pencerahan bagi kami untuk melihat sisi-sisi yang perlu ditingkatkan.<br><br> Sekali lagi, terima kasih telah memberikan kritik yang jujur dan saran yang bermanfaat.</p>';
-            $emailMessageBalasan .= '<p>Hormat Kami,<br>Tim Sispasi UMC</p>';
+            $emailMessageBalasan .= '<p> Sebagai Tim SIPADEM, kami ingin menyampaikan ucapan terima kasih yang tulus atas kritik dan saran yang Anda berikan. Setiap masukan dari Anda adalah motivasi bagi kami untuk terus berkembang dan memberikan pelayanan terbaik kepada pengguna <strong>SIPADEM</strong>.<br><br> Kami sangat menghargai kesempatan untuk mendengar pandangan Anda tentang pelayanan pada aplikasi ini. Kritik yang konstruktif dan saran yang berharga telah memberikan pencerahan bagi kami untuk melihat sisi-sisi yang perlu ditingkatkan.<br><br> Sekali lagi, terima kasih telah memberikan kritik yang jujur dan saran yang bermanfaat.</p>';
+            $emailMessageBalasan .= '<p>Hormat Kami,<br>Tim SIPADEM</p>';
             $emailMessageBalasan .= '</div>';
             $emailMessageBalasan .= '</body>';
             $emailMessageBalasan .= '</html>';
@@ -103,7 +103,7 @@ class KritikController extends BaseController
 
             // Kirim email balasan
             try {
-                $mailBalasan->setFrom('ISI EMAIL ANDA DISINI', 'Tim Sispasi UMC');
+                $mailBalasan->setFrom('ISI EMAIL ANDA DISINI', 'Tim SIPADEM');
                 $mailBalasan->addAddress($email);
                 $mailBalasan->Subject = $subjectBalasan;
                 $mailBalasan->Body = $emailMessageBalasan;

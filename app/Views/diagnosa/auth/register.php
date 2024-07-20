@@ -10,7 +10,7 @@
                         <div class="col-lg-12">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <img src="<?= base_url() ?>public/img/umc.png" width="70px" height="70px">
+                                    <img src="<?= base_url() ?>public/img/sipadem.png" width="70px" height="70px">
                                     <p>
                                         <?php if (!isset($showOtpForm)) : ?>
                                             <h1 class="h4 text-gray-900 mb-4">Silahkan Registrasi Akun Baru</h1></p>
@@ -90,7 +90,7 @@
     <footer class="sticky-footer bg-white">
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-                <span><strong>Copyright &copy; <a href="#">Umc.2023</a>.</strong> All rights
+                <span><strong>Copyright &copy; <a href="#">SIPADEM.2023</a>.</strong> All rights
                 reserved.</span>
             </div>
         </div>

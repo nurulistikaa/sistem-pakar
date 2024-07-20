@@ -10,7 +10,7 @@
                         <div class="col-lg-12">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <img src="<?= base_url() ?>public/img/umc.png" width="70px" height="70px">
+                                    <img src="<?= base_url() ?>public/img/sipadem.png" width="70px" height="70px">
                                     <p>
                                         <h1 class="h4 text-gray-900 mb-4">Masukkan Email Anda</h1></p>
                                     </div>
