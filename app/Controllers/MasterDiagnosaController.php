@@ -55,13 +55,15 @@ class MasterDiagnosaController extends BaseController
         $mergedData = array();
         foreach ($listSelectedGejala as $key => $idGejala) {
             if (isset($listCF[$key]) && !empty($listCF[$key])) {
-                $cfUserId = $listCF[$key];
-                    $cfKepercayaan = $cfMahasiswaModel->where('id_cf_mahasiswa', $cfUserId)->first();
-                    $mergedDataCf[] = [
-                        'id_gejala' => $idGejala,
-                        'tingkat_kepercayaan' => $cfKepercayaan['nama_nilai'],
-                        'cf_user' => $cfKepercayaan['cf'],
-            ];
+                $cfUserID = $listCF[$key];
+
+                $cfKepercayaan = $cfMahasiswaModel->where('id_cf_mahasiswa', $cfUserId)->first();
+
+                $mergedDataCf[] = [
+                    'id_gejala' => $idGejala,
+                    'tingkat_kepercayaan' => $cfKepercayaan['nama_nilai'],
+                    'cf_user' => $cfKepercayaan['cf'],
+                ];
             } else {
                 return redirect()->to('diagnosa/error');
             }
@@ -97,6 +99,7 @@ class MasterDiagnosaController extends BaseController
 
                     $value['id_gejala'] = $gejalaRule['id_gejala'];
                     $value['kode_gejala'] = $gejalaRule['kode_gejala'];
+                    // $value['kode_gejala'] = $gejala['kode_gejala'];
                     $value['nama_gejala'] = $gejalaRule['nama_gejala'];
                     $value['tingkat_kepercayaan'] = $val['tingkat_kepercayaan'];
                     $value['cf'] = $relation['cf'];
@@ -105,11 +108,10 @@ class MasterDiagnosaController extends BaseController
                     $value['kode_penyakit'][] = $penyakit ? $penyakit['kode_penyakit'] : '';
                     $value['nama_penyakit'][] = $penyakit ? $penyakit['nama_penyakit'] : '';
 
-
                     $value['id_penyakit'] = $relation[$r]['id_penyakit'];
                     $value['nilai_cf'] = $val['cf_user'] * $relation['cf'];
 
-                    $listGejalaValue['nilai_cf'] = 0;
+                    $listGejalaValue['nilai_cf'] = $val['cf_user'] * $relation[$r]['cf'];
                     $listGejalaValue['id_penyakit'] = $val['cf_user'] * $relation[$r]['cf'];
                     $listGejalaValue['kode_penyakit'][] = $penyakit ? $penyakit['kode_penyakit'] : '';
                     $listGejalaValue['nama_penyakit'][] = $penyakit ? $penyakit['nama_penyakit'] : '';
@@ -127,29 +129,30 @@ class MasterDiagnosaController extends BaseController
                 array_push($listGejala, $listGejalaValue);
             }
         }
+
         $cfCombine = 0;
         $groupByPenyakit = array();
-    
+
         foreach ($cf as $pen) {
             $groupByPenyakit[$pen['id_penyakit']][] = $pen;
         }
-    
+
         $new = array();
-    
+
         if (count($cf) > 0) {
             for ($i = 0; $i < count($cf) - 1; $i++) {
-                $depresi = $groupByPenyakit[$cf[$i]['id_penyakit']];
-    
+                $depresi = $groupByPenyakit[$cf['id_penyakit']];
+
                 if (count($depresi) > 1) {
-                    for ($j = 0; $j < count($depresi); $j++) {
+                    for ($j === 0; $j < count($depresi); $j++) {
                         $tingkatDepresi = $depresi[$j];
-    
-                        if ($j == 0) {
+
+                        if ($j === 0) {
                             $cfCombine = $tingkatDepresi['cf'] + $depresi[$j + 1]['nilai_cf'] * (1.0 - $tingkatDepresi['nilai_cf']);
-    
+
                             if (count($depresi) - 1 == 1) {
                                 $new[$i]["nilai_cf"] = $cfCombine;
-                                $new[$i]["id_penyakit"] = $cf[$i]['id_penyakit'];
+                                $new[$i]["id_penyakit"] = $cf['id_penyakit'];
                                 break;
                             }
                         } else {
@@ -161,34 +164,27 @@ class MasterDiagnosaController extends BaseController
                         }
                     }
                 } else {
-                    $cfCombine = $cf[$i]['nilai_cf'];
+                    $cfCombine = $cf['nilai_cf'];
                     $new["nilai_cf"] = $cfCombine;
                     $new["id_penyakit"] = $cf[$i]['id_penyakit'];
                 }
             }
         } else {
-            if (isset($cf[0]['nilai_cf']) && isset($cf[0]['id_penyakit'])) {
-                $cfCombine = $cf[0]['nilai_cf'];
-                $new["nilai_cf"] = $cfCombine;
-                $new["id_penyakit"] = $cf[0]['id_penyakit'];
-            }
+            $cfCombine = $cf['nilai_cf'];
+            $new["nilai_cf"] = $cfCombine;
+            $new["id_penyakit"] = $cf['id_penyakit'];
         }
-    
+
         for ($i = 0; $i < (count($new) - count($cf)); $i++) {
             unset($new[$i]);
         }
-        
-        // Mengambil nilai maksimum dari array $cf untuk 'cf'
-        $max_cf = max($cf);
-        $nilaiPenyakitTerbesar = $max_cf['cf'];
-        
-        // Mengambil nilai maksimum dari array $new untuk 'id_penyakit'
+
+
+        $nilaiPenyakitTerbesar = max($cf)['cf'];
         $idPenyakitTerbesar = max($new)['id_penyakit'];
-        
-        // Mengambil data penyakit berdasarkan id yang terbesar
+
+        // Ambil deskripsi dan solusi penyakit
         $penyakitData = $penyakitModel->find($idPenyakitTerbesar);
-        
-        // Mengakses nilai-nilai yang dibutuhkan dari $penyakitData
         $kodePenyakit = $penyakitData['kode_penyakit'];
         $namaPenyakit = $penyakitData['nama_penyakit'];
         $deskripsi = $penyakitData['deskripsi_penyakit'];
